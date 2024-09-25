@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ECommerceWeb.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ECommerceWeb.Data
 {
@@ -8,5 +9,7 @@ namespace ECommerceWeb.Data
         {
 
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
