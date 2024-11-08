@@ -10,6 +10,11 @@
     <Content Remove="wwwroot\images\product\bcf1c531-ae22-4eb3-95b1-2412a7c5ae75.jpeg" />
     <Content Remove="wwwroot\images\product\e8c0b51e-d3b4-4eac-b271-9221de6e060b.jpg" />
     <Content Remove="wwwroot\images\product\f69c66f7-d45c-46e5-b2c0-96171fae0b42.jpg" />
+    <Content Remove="wwwroot\js\product.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\product.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +34,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\product\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\product.js" />
   </ItemGroup>
 
 </Project>
